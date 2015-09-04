@@ -4,7 +4,7 @@
 Max Lin <mlin@suse.com>
 
 ## Introduction
-As you know openSUSE introduced Staging Project in the openSUSE Factory development model[1], it is a gate to ensure new changes will not breaking Factory too much, and it is an important part that we can perform a rolling release distribution of openSUSE - Tumbleweed. openSUSE Factory are received tons of new changes everyday, new changes often brings many new features and new fixes, but it also could means we can found new problem/bug as well, especially a core package change is deemed to have the potential to break so much in Factory, the Staging Project should(must be) catch those issues, and block bad requests merge to Factory till developer fix the breakage.
+As you know openSUSE introduced Staging Project in the openSUSE Factory development model[1], it is a gate to ensure new changes will not breaking Factory too much, and it is an important part that perform a rolling release distribution of openSUSE - Tumbleweed. openSUSE Factory are received tons of new changes everyday, new changes often brings many new features and new fixes, but it also could means we can found new problem/bug as well, especially a core package change is deemed to have the potential to break so much in Factory, the Staging Project should(must be) catch those issues, and block bad requests merge to Factory till developer fix the breakage.
 
 ### Basic workflow
 The basic workflow of Staging Project as this picture shown[2].
@@ -13,7 +13,7 @@ The basic workflow of Staging Project as this picture shown[2].
 New toy! The **adi**(Ad Intern) staging project[3] is a kind of temporary staging for *non-rings* package's submissions, in order to ensure new package or package updates can built and did not affect rings, and the requests also can pass the repochecker.
 
 ### The tools are involved in Staging Project
-We're several tools[4] are involved in Staging Project.
+We have several tools[4] are involved in Staging Project.
 
 * dashboard - showing the staging projects and their health status.
 * osc staging command - handling Staging Project work, adding/removing/moving the request in Staging Project.
