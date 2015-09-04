@@ -11,24 +11,24 @@ As you know openSUSE introduced Staging Project in the openSUSE Factory developm
 * Basic workflow
 * What is **adi** staging(NEW)?
 * The tools used for Staging Project
-* Recognize the quality - by openQA[2]
+* Recognize the quality - by openQA
 * Case Study
 * Q&A
 
 ### Basic workflow
-As many of you should already have basic concept of Staging Project on openSUSE, I'll introduce basic workflow of Staging Project quickly in this part.
+I'll introduce basic workflow of Staging Project, as many of you should already have basic concept of Staging Project on openSUSE, I'll go through this part quickly.
 
 ### What is adi staging?
-New toy! The **adi**(Ad Intern) staging project[3] is a kind of temporary staging *non-rings* package's submission, in order to ensure new package or package update can built against Factory, and can pass the repochecker.
+New toy! The **adi**(Ad Intern) staging project[3] is a kind of temporary staging for *non-rings* package's submission, in order to ensure new package or package update can built against Factory, and can pass the repochecker.
 
 ### The tools used for Staging Project
 Introducing the tools we used for Staging Project[4].
 
 ### Recognize the quality - by openQA
-Each real staging project(except adi staging project) will generate an test image for testing on openQA, I'll explain how those images generating, and will also explain what parts are covered in current test plan.
+Each real staging project(except adi staging project) will generate an test image for testing on openQA[2], I'll explain how those images generating, and will also explain what parts are covered in current test planon openQA against Staging Project.
 
 ### Case Study
-I'll show you several bugs what Staging Project caught in the past; some issues what can breaks Staging Project; some cases causes the submission stuck in Staging Project.
+I'll show several bugs what Staging Project caught in the past; some issues what can breaks Staging Project; some cases causes the submission stuck in Staging Project.
 
 
 [1] [openSUSE Factory development model](https://en.opensuse.org/openSUSE:Factory_development_model)
