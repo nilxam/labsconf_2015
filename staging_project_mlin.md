@@ -10,7 +10,7 @@ As you know openSUSE introduced Staging Project in the openSUSE Factory developm
 The basic workflow of Staging Project as this picture shown[2].
 
 ### What is adi staging?
-New toy! The **adi**(Ad Intern) staging project[3] is a kind of temporary staging for *non-rings* package's submissions, in order to ensure new package or package updates can built and did not affect rings, and the requests also can pass the repochecker.
+New toy! The **adi**(ad interim) staging project[3] is a kind of temporary staging for *non-rings* package's submissions, in order to ensure new package or package updates can built and did not affect rings, and the requests also can pass the repochecker.
 
 ### The tools are involved in Staging Project
 We have several tools[4] are involved in Staging Project.
